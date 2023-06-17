@@ -19,7 +19,7 @@ export default function Currentweather(props) {
 			</ul>
 			<div className="row mt-4">
 				<div className="col-4">
-					<img src={props.data.icon} alt={props.data.description}/>
+					<img src={props.data.icon} alt={props.data.description} className="images"/>
 				</div>
 				<div className="col-4">
 					<h2>{Math.round(props.data.temperature)}°</h2>

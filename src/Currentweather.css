@@ -9,7 +9,10 @@ h2 {
 }
 
 
-
+.images {
+	position: relative;
+	left: -17px;
+}
 
 ul {
 	margin: 0;
