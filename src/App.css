@@ -4,3 +4,24 @@
 	color: white;
 }
 
+footer {
+	color: white;
+	text-align: center;
+	font-size: 17px;
+	margin-top: 20px;
+}
+
+footer .icon {
+	color: #61dbfb;
+}
+
+footer a {
+	text-decoration: none;
+	color: white;
+	transition: all 100ms ease-in-out;
+}
+
+footer a:hover {
+	color: #435174;
+	cursor: pointer;
+}

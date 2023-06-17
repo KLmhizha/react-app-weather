@@ -8,6 +8,13 @@ export default function App() {
 			<main>
 			<Weather />
 			</main>
+			<footer>
+						<i className="fa-brands fa-react icon"></i> {""}
+					<span>
+						<a href="https://github.com/KLmhizha/react-app-weather.git" target="_blank" rel="noreferrer">Built by Lucia Mhizha and it is open-sourced.
+						</a>
+						</span>
+			</footer>
 			</div>
 	);
 }
