@@ -18,7 +18,7 @@ export default function Overview(props) {
 			<ul>
 				<li>{date(props.forecast.dt * 1000)}</li>
 				<li>
-					<img src={`https://openweathermap.org/img/wn/${props.forecast.weather[0].icon}@2x.png`} alt={props.forecast.weather[0].description}/>
+					<img src={`https://openweathermap.org/img/wn/${props.forecast.weather[0].icon}@2x.png`} alt={props.forecast.weather[0].description} className="image"/>
 				</li>
 				<li>{Math.round(props.forecast.temp.max)}° <span className="opacity-75">{Math.round(props.forecast.temp.min)}°</span></li>
 			</ul>
