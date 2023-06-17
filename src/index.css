@@ -1,0 +1,8 @@
+body {
+  background-color: linear-gradient(180deg, #305baa 0%, #4c6fac77 75%);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
