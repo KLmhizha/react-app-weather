@@ -9,10 +9,7 @@
 	font-family: 'Poppins', sans-serif;
 }
 
-form {
-	margin: 5px auto;
-	 padding: 5px;
-}
+
 
 
 
@@ -32,10 +29,3 @@ color: white;
 padding: 5px 10px;
 }
 
-
-
-@media (max-width: 900px) {
-	.form {
-		width: 75px;
-	}
-}
