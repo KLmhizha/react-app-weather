@@ -49,16 +49,18 @@ export default function Weather() {
     return (
       <div className="Weather">
         <form onSubmit={handleSubmit}>
-          <div className="input mb-4">
+          <div className="row mb-4">
+						<div className="col-9">
             <input
               type="search"
               placeholder="Enter a city..."
               className="form"
               onChange={updateCity}
             />
-            <button type="submit" className="button">
-              <i className="fa-solid fa-magnifying-glass"></i>
-            </button>
+           </div>
+					 <div className="col-3">
+						<input type="submit" value="Search" className="button"/>
+						</div>
           </div>
         </form>
         <section>
